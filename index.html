@@ -1,0 +1,18 @@
+﻿<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#061b2b"><meta name="description" content="深藍群島：一起漫遊海洋生態的 3D 水族館。"><title>深藍群島｜海洋探索所</title>
+<link rel="stylesheet" href="styles.css"></head>
+<body><main class="app" aria-label="深藍群島互動水族館"><div class="ocean"><div class="sunbeam"></div><div class="waterline"></div><div class="caustics"></div><div class="backreef"></div><div class="reef"></div>
+<div class="island i1" data-name="珊瑚花園" data-info="熱帶珊瑚礁是海洋裡最繽紛的家園。探索小丑魚、海葵與珊瑚共生的故事。"><div class="land"></div><div class="trees">🌴🌳</div><div class="label"><b>珊瑚花園</b><span>熱帶礁岩・12 種生物</span></div></div>
+<div class="island i2" data-name="藍潮海灣" data-info="跟著海龜穿越海草床，認識海洋牧場與遷徙路徑。"><div class="land"></div><div class="trees">🌿🐢</div><div class="label"><b>藍潮海灣</b><span>海草床・8 種生物</span></div></div>
+<div class="island i3" data-name="極光冰原" data-info="冰冷清澈的海水裡，企鵝與海豹在極地生態中自在生活。"><div class="land"></div><div class="trees">❄️🐧</div><div class="label"><b>極光冰原</b><span>極地海域・6 種生物</span></div></div>
+<div class="island i4" data-name="紅樹林秘境" data-info="走進潮間帶，看見紅樹林如何守護海岸與幼魚。"><div class="land"></div><div class="trees">🌱🦀</div><div class="label"><b>紅樹林秘境</b><span>潮間帶・9 種生物</span></div></div>
+<div class="island i5" data-name="月光深海" data-info="往深海前進，發現會發光的生物與未知的海底地形。"><div class="land"></div><div class="trees">🪸🪼</div><div class="label"><b>月光深海</b><span>深海帶・11 種生物</span></div></div>
+<div class="fish f1">🐠</div><div class="fish f2">🐟</div><div class="fish f3">🐬</div><div class="fish f4">🫧</div><div class="bubble b1"></div><div class="bubble b2"></div><div class="bubble b3"></div><div class="walker" id="walker">🤿</div></div>
+<header class="topbar"><div class="brand"><div class="brandmark">〰</div><div><strong>深藍群島</strong><small>PELAGIC ISLES · AQUARIUM</small></div></div><div class="actions"><button class="pill" id="shopBtn">🛍 商店 <span id="cartCount"></span></button><button class="pill member" id="memberBtn">♙ 會員登入</button></div></header>
+<section class="hero"><div class="eyebrow">AN OCEAN WORLD TOGETHER</div><h1>把海洋，<br>走成日常。</h1><p>踏上五座生態島，遇見海洋生命。邀請朋友一起漫遊、聊天，讓每次探索都留下新的故事。</p><button class="explore" id="startBtn">開始漫遊 <span>→</span></button></section>
+<div class="hud"><div class="status"><i class="dot"></i><span>海域開放中</span><span style="opacity:.45">·</span><span>島民 <b id="online">128</b></span></div><div class="move"><button data-move="left" aria-label="向左移動">←</button><button data-move="up" aria-label="向上移動">↑</button><button data-move="down" aria-label="向下移動">↓</button><button data-move="right" aria-label="向右移動">→</button></div><button class="chatbtn" id="chatBtn" aria-label="開啟聊天">☏</button></div><div class="toast" id="toast"></div>
+<aside class="panel" id="panel"><div class="panel-head"><h2 id="panelTitle">探索島嶼</h2><button class="close" id="closePanel">✕</button></div><div id="panelBody"></div></aside><div class="overlay" id="overlay"></div></main>
+<script src="script.js" defer></script></body></html>
+
